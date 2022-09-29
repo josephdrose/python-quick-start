@@ -1,0 +1,17 @@
+This repository is a set of configuration files necessary to rapidly start development
+on a python / django / django rest framework project with minimal setup required.
+
+Prerequisites:
+
+    Docker desktop
+    Pycharm (preferably professional)
+
+Getting started:
+
+In a command line, run 'docker compose up web'.
+Or, click 'play' in pycharm to start the application.
+
+To open a terminal in a running container:
+
+Run 'docker ps' and note the id of the container
+ run 'docker exec -it [container id] bash'
