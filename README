@@ -14,4 +14,10 @@ Or, click 'play' in pycharm to start the application.
 To open a terminal in a running container:
 
 Run 'docker ps' and note the id of the container
- run 'docker exec -it [container id] bash'
+Run 'docker exec -it [container id] bash'
+
+Useful django management comments:
+
+python manage.py startapp  # create a new app
+python manage.py makemigrations  # create sql migrations for a model or changes to a model
+python manage.py migrate  # apply sql migrations to the database
