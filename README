@@ -21,3 +21,4 @@ Useful django management comments:
 python manage.py startapp  # create a new app
 python manage.py makemigrations  # create sql migrations for a model or changes to a model
 python manage.py migrate  # apply sql migrations to the database
+python manage.py createsuperuser  # create a user who can log into the admin panel
